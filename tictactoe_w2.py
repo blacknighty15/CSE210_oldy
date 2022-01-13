@@ -10,7 +10,7 @@ Last updated by 01/12/2021
 """
 
 # Main, game loop, it runs until the game is over
-def main():    
+def main():      
     board = new_board()
     player = next_player("")
     while not (check_winner(board) or no_more_moves(board)):
